@@ -1,9 +1,10 @@
 
-import LoginForm from './Components/LoginForm/LoginForm';
+
+import LogoComponent from './Components/Sidebar/LogoComponent';
 function App() {
   return (
     <div>
-      <LoginForm />
+      <LogoComponent />
     </div>
   );
 }
