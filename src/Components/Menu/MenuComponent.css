@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+.mnuSup{
+   display:grid;
+   grid-template-columns: 1fr auto;
+   align-items: center;
+   background: linear-gradient(#015c2a,#2cb866);
+   font-family: sans-serif;
+   position:fixed;
+   top:0;
+   width:100%;
+   color: white;
+}
+.mnuSup .logo{
+    font-size: 24px;
+    font-weight:white;
+}
+.mnuSup .logo img{
+    width: 150px;
+}
+
+.mnuSup .barnav{
+    display:grid;
+    grid-template-columns: repeat(4,auto);
+    margin-right: 30px;
+}
+
+.mnuSup .barnav div{
+    padding: 10px 20px;
+    }
+.mnuSup .barnav div:hover{
+    cursor: pointer;
+    color: black;
+}
+.icons{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+  }
+ 
